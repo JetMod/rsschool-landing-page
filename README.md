@@ -1,10 +1,16 @@
 # Aperture
 
-Сайт фотографа в Симферополе.
+Авторский лендинг фотографа в Симферополе (RS School Landing Page).
 
 ## Страницы
 
-- index.html — главная
-- portfolio.html — каталог
+- [index.html](index.html) — главная
+- [portfolio.html](portfolio.html) — каталог
 
-Открыть можно просто через браузер.
+## Деплой
+
+https://jetmod.github.io/rsschool-landing-page/
+
+## PR
+
+https://github.com/JetMod/rsschool-landing-page/pull/1
