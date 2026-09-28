@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены на фотосессию в Симферополе и Крыму | Aperture</title>
+    <meta name="description" content="Пакеты фотосессий Aperture в Симферополе: свадьба, портрет и репортаж. Цены, форматы и длительность съёмки.">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;600&display=swap"
+      rel="stylesheet"
+    >
+    <script>try {
+        let t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}</script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="index.html">Aperture</a>
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li>
+              <a class="nav__link" href="index.html#hero">Главная</a>
+            </li>
+            <li>
+              <a class="nav__link" href="index.html#works">Работы</a>
+            </li>
+            <li>
+              <a class="nav__link" href="index.html#about">Обо мне</a>
+            </li>
+            <li>
+              <a class="nav__link" href="index.html#services">Услуги</a>
+            </li>
+            <li>
+              <a class="nav__link is-current" href="portfolio.html">Портфолио</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <button class="theme-toggle" type="button" aria-label="Включить тёмную тему">ночь</button>
+          <button class="burger"
+            type="button"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+          >
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="catalog-hero">
+        <div class="container">
+          <span class="section__eyebrow">Портфолио и цены</span>
+          <h1 class="section__title">Фотосессия в Симферополе: виды съёмки и цены</h1>
+          <p class="section__text">Выберите категорию, откройте карточку и подберите формат с длительностью — цена обновится сразу.</p>
+          </div>
+      </section>
+
+      <section class="section" style="padding-top: 24px">
+        <div class="container">
+          <div class="catalog__tabs" role="tablist" aria-label="Shoot categories">
+            <button class="catalog__tab is-active"
+              type="button"
+              role="tab"
+              data-category="wedding"
+              aria-selected="true"
+            >Свадьба</button>
+            <button class="catalog__tab"
+              type="button"
+              role="tab"
+              data-category="portrait"
+              aria-selected="false"
+            >Портрет</button>
+            <button class="catalog__tab"
+              type="button"
+              role="tab"
+              data-category="reportage"
+              aria-selected="false"
+            >Репортаж</button>
+          </div>
+
+          <div class="catalog__list" aria-live="polite"></div>
+
+          <div class="catalog__more-wrap">
+            <button class="btn btn--ghost catalog__more" type="button" hidden>Показать ещё</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal__overlay"></div>
+      <div class="modal__dialog">
+        <button class="modal__close"
+          type="button"
+          aria-label="Закрыть"
+        >
+          ×
+        </button>
+        <div class="modal__body"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer__row">
+        <a class="footer__brand" href="index.html">Aperture</a>
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="tel:+79780000000">+7 (978) 000-00-00</a>
+          <a href="mailto:hello@aperture-photo.ru">hello@aperture-photo.ru</a>
+          <a
+            href="https://yandex.ru/maps/146/simferopol/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Симферополь</a>
+          <a href="https://vk.com/" target="_blank" rel="noopener noreferrer">VK</a>
+        </nav>
+        <p class="footer__copy">© 2026</p>
+      </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>
