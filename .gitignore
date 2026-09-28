@@ -44,3 +44,4 @@ build/
 *.local
 .temp/
 .tmp/
+pr-description.md

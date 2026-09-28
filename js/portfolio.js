@@ -143,7 +143,7 @@ function drawModal() {
     currentItem.name +
     '"></div>' +
     '<div class="modal__info">' +
-    '<h2 class="modal__title">' +
+    '<h2 class="modal__title" id="modal-title">' +
     currentItem.name +
     '</h2>' +
     '<p class="modal__text">' +
